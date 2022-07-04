@@ -1,0 +1,28 @@
+.flex,
+.flex--left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex input{
+    border-right: 0;
+}
+
+.flex span{
+    border: 1px solid #ced4da;
+    border-left: 0;
+    padding: .375rem .75rem;
+    color: #ddd;
+}
+
+.flex--left input{
+    border-left: 0;
+    padding-left: 0;
+}
+
+.flex--left span{
+    border: 1px solid #ced4da;
+    border-right: 0;
+    padding: .375rem .375rem .375rem 0.75rem;
+    color: #ddd;
+}
